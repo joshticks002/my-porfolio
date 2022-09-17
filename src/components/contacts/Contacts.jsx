@@ -2,7 +2,7 @@ import './contacts.scss'
 import {useState} from "react"
 
 export default function Contacts() {
-  const {message, setMessage} = useState(false)
+  const [message, setMessage] = useState(false)
   const handleSubmit = (e)=>{ 
     e.preventDefault()
     setMessage(true)
