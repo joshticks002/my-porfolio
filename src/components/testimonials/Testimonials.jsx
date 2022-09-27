@@ -10,7 +10,7 @@ export default function Testimonials() {
     icon: "./images/twitter.png",
     title: "Web App",
     desc:
-      "It is a great work you are putting out there. Am impressed and keep it coming!",
+      "It is a great work you are putting out there. You are a unique engineer!",
     img:
       "/images/chigo.png",
   },
@@ -20,7 +20,7 @@ export default function Testimonials() {
     icon: "./images/youtubee.png",
     title: "Agile", 
     desc:
-      "Am really impressed with your Agile contents. I cant wait to read more of  it. It has had a great impact on my project growth. Keep the good work coming!",
+      "I am quite impressed with your Agile contents. I cannot wait for your next update. You have had a great impact on my growth mindset. Keep the good work coming bro!",
     img:
       "/images/yusuf.png",
     featured: true,
@@ -31,7 +31,7 @@ export default function Testimonials() {
     icon: "./images/linkdin.png",
     title: "Web App",
     desc:
-      "This Scorecard user management application saved my day. It makes it very easy to update the students score and for the student to view their performance rate. Nice work, keep it coming!. ",
+      "The Scorecard management application saved my day. It made it easier to update students score and for each student to his/her weekly performance. Nice work!",
     img:
       "/images/lawrence.png",
   },
@@ -49,7 +49,6 @@ export default function Testimonials() {
       {data.map((d, i)=>(
       <div key={i} className={d.featured ? "card featured" : "card"}>
         <div className="top">
-          < img src="/images/curvearrow1.png" alt=""/>
           < img className="user"
           src={d.img} alt=""/>
           < img className="right"src={d.icon} alt=""/>

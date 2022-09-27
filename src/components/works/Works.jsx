@@ -33,7 +33,7 @@ export default function Works() {
           <div className="left">
             <div className="leftContainer">
               <div className="imgContainer">
-                <img src={d.icon}/>
+                <img src={d.icon} alt="i-link" />
               </div>
               <h2>{d.title}</h2>
               <p>{d.desc}</p>
@@ -43,7 +43,7 @@ export default function Works() {
           <div className="right">
             <div className="rightContainer">
               <div className="imgRightContainer">
-                <img src="https://i0.wp.com/fiverrpromotion.com/wp-content/uploads/2021/03/I-will-develop-your-website-with-HTML-CSS-and-java-script.jpg?fit=1147%2C792&ssl=1"/>
+                <img src="./images/scorecard.png" alt="con"/>
               </div>
             </div>
           </div>

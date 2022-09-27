@@ -1,61 +1,62 @@
 @import "../../global.scss";
-
-.contacts{
+.contacts {
     background-color: lightblue;
     display: flex;
-
-    @include mobile{
+    @include mobile {
         flex-direction: column;
-     }
-
-    .left{
+    }
+    .left {
         flex: 1;
         overflow: hidden;
-
-        img{
+        img {
             height: 75%;
         }
     }
-
-    .right{
+    .right {
         flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        h2{
+        h2 {
             font-size: 30px;
         }
-        form{
+        form {
             width: 70%;
-            height: 70%;
+            height: 40%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
-
-            input{
+            input {
                 width: 300px;
                 height: 20px;
                 font-size: 14px;
-
-                @include mobile{
+                border-radius: 4px;
+                border: 1px solid #e6e6e6;
+                padding: 10px;
+                @include mobile {
                     width: 200px;
                     height: 20px;
-                 }
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
             }
-            textarea{
+            textarea {
                 width: 300px;
                 height: 200px;
                 font-size: 14px;
-
-                @include mobile{
+                border-radius: 4px;
+                border: 1px solid #e6e6e6;
+                padding: 10px;
+                @include mobile {
                     width: 200px;
                     height: 100px;
-                 }
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
             }
-            button{
+            button {
                 width: 150px;
                 height: 30px;
                 color: white;
@@ -64,12 +65,11 @@
                 border-radius: 10px;
                 font-weight: 500px;
                 cursor: pointer;
-
-                &:focus{
+                &:focus {
                     outline: none;
                 }
             }
-            span{
+            span {
                 color: green;
             }
         }
